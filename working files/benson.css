@@ -1,0 +1,110 @@
+html
+{
+background-color: #777777;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body
+* {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+margin-left: auto;
+margin-right: auto;
+width: 720px;
+background-color: #000;
+}
+
+#header {
+
+}
+
+#navigation {
+width: 720px;
+height: 38px;
+background-color: #78080A;
+}
+
+#buttons {
+float: right;
+padding-right: 15px;
+}
+
+#buttons li {
+display: inline;
+border: solid 1px #ED1C24;
+background-color: black;
+margin: 0px 4px 0px 4px;
+}
+
+#buttons a {
+text-decoration: none;
+line-height: 38px;
+color: white;
+font-size: 14px;
+}
+
+
+#content {
+background-color: #444444;
+overflow: hidden;
+width: 720px;
+}
+
+#sidebar {
+text-align: center;
+background-color: black;
+float: left;
+width: 180px;
+height: 400px;
+font-size: 14px;
+color: white;
+}
+
+#sidebar p {
+margin-top: 60px;
+}
+
+#moved {
+width: 140px;
+height: 80px;
+background-color: #78080A;
+margin: auto;
+}
+
+#moved p {
+padding-top: 10px;
+}
+
+#main {
+float: right;
+width: 420px;
+background-color: #444444;
+padding: 60px;
+color: white;
+}
+
+#main p {
+font-size: 18px;
+padding-top: 20px;
+}
+
+#footer {
+width: 720px;
+height: 36px;
+background-color: #78080A;
+}
+
+#footer p {
+font-size: 12px;
+line-height: 36px;
+text-align: center;
+color: white;
+}
