@@ -76,16 +76,8 @@ header img.logo.wide {
 		display: block;
 		position: absolute;
 		top: 10px;
-		left: 10px;
-	}
-}
-
-@media (min-width: 790px) {
-	header .engine {
-		display: block;
-		position: absolute;
-		top: 10px;
 		left: 30px;
+		width: 25%;
 	}
 }
 
