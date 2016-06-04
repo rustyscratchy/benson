@@ -2,25 +2,12 @@
 <html>
   <head>
     <title>Dan Benson Racing Can Install Sleeves In These Engines</title>
-    <link rel="stylesheet" type="text/css" href="css/benson2.css" />
-    <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
-    <script type="text/javascript" src="ie_noclick.js"></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <img src="images/engine.png" class="engine" alt="Engine block" />
-        <img src="images/dan-benson-racing-logo-800x207.png" class="logo narrow" alt="Dan Benson Racing" />
-        <img src="images/dan-benson-racing-logo-949x207.png" class="logo wide" alt="Dan Benson Racing" />
-      </header>
-      <nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="benson-sleeves.html">Benson Sleeves</a></li>
-				<li><a href="engine-blocks.html">Which Blocks?</a></li>
-				<li><a href="contact.html">Contact Me</a></li>
-			</ul>
-      </nav>
+<?php  
+	include('../includes/header.php');  
+?> 
+<?php  
+	include('../includes/nav.php');  
+?> 
       <section class="content">
 		 <sidebar>
 		 	<div class="sidebar-content">
@@ -53,11 +40,6 @@
 
         </section><!--end main-content-->
       </section><!--end content-->
-      <footer>
-        <p>
-          Dan Benson Racing - 1135 N. Riley Creek Rd. - Laclede, ID 83841
-        </p>
-      </footer>
-    </div><!--end wrapper-->
-  </body>
-</html>
+<?php  
+	include('../includes/footer.php');  
+?>  
