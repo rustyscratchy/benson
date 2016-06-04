@@ -21,7 +21,10 @@ body {
 .wrapper {
 	margin: auto;
 	max-width: 900px;
+	min-height: 100vh;
 	background-color: #000;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -38,8 +41,12 @@ header .engine {
 	display: none;
 }
 
-header img.logo {
+header img.logo.narrow {
 	width: 100%;
+}
+
+header img.logo.wide {
+	display: none;
 }
 
 @media (min-width: 470px) {
@@ -53,17 +60,18 @@ header img.logo {
 
 @media (min-width: 700px) {
 	header {
-		width: 100%;
+
 		height: 155px;
 	}
-	header img.logo {
-		float: right;
-		height: 100%;
-		width: auto;
+	header img.logo.narrow {
+		display: none;
 	}
-}
+	header img.logo.wide {
+		display: block;
+		float: right;
+		width: 85%;
 
-@media (min-width: 750px) {
+	}
 	header .engine {
 		display: block;
 		position: absolute;
@@ -171,15 +179,18 @@ nav a:hover {
 /* CONTENT AREA */
 
 .content {
+	flex: 2;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 width: 100%;
 clear: both;
-
 }
 
 sidebar {
 	text-align: center;
 	background-color: black;
-	float: left;
+	flex: 1;
 	width: 100%;
 	font-size: 16px;
 	color: white;
@@ -223,7 +234,7 @@ font-size: 16px;
 }
 
 .main-content {
-float: left;
+
 width: 100%;
 background-color: #444444;
 padding: 30px;
